@@ -1,10 +1,13 @@
-import { SafeAreaView, View, Text } from "react-native";
+import { SafeAreaView } from "react-native";
+
+import Header from "../components/Header";
+
 import React from "react";
 
 const HomeScreen = () => {
   return (
     <SafeAreaView>
-      <Text>HomeScreen</Text>
+      <Header />
     </SafeAreaView>
   );
 };
